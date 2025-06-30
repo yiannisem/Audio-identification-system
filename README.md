@@ -13,15 +13,11 @@ Project Structure
 
 MI coursework 2 code.ipynb: The main implementation in Jupyter Notebook form.
 
-fingerprintBuilder(...): Function to process database tracks and create audio fingerprints.
-
-audioIdentification(...): Function to match query tracks to the fingerprint database and return top matches.
-
-output.txt: Output file with the top 3 matches for each query.
-
 database_recordings/: Folder containing 200 clean audio files (30 seconds, 22050 Hz).
 
 query_recordings/: Folder containing 213 noisy audio excerpts (10 seconds, 44100 Hz).
+
+output.txt: Example output file with the top 3 matches for each query.
 
 MI_Coursework_2_report.pdf: Full report describing the method, evaluation, and findings.
 
